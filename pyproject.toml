@@ -21,6 +21,9 @@ dev = ["pytest>=7.4.0", "pytest-asyncio>=0.23.0"]
 [project.scripts]
 eval-harness = "cli.main:cli"
 
+[tool.setuptools.packages.find]
+include = ["pkg*", "cli*"]
+
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 pythonpath = ["."]
