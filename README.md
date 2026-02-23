@@ -1,6 +1,6 @@
 # eval-harness
 
-Replay episodes, score results, detect regressions for AI agent runs. Part of [black-box-labworks](https://github.com/nostalgicskinco).
+Replay episodes, score results, detect regressions for AI agent runs. Part of [AIR Blackbox](https://github.com/airblackbox).
 
 ## How It Fits Together
 
